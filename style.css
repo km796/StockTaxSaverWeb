@@ -27,15 +27,16 @@ body {
   background-color: rgb(0, 0, 0, 0.7);
 }
 
+.nav-section img {
+  width: 50px;
+  height: auto;
+  position: relative;
+  bottom: 0;
+}
+
 .nav-section a {
   position: relative;
-  z-index: 2;
-  top: 1.3rem;
-  left: 1.5rem;
-  text-decoration: none;
-  font-size: 1.2rem;
-  padding-bottom: 5px;
-  text-transform: none;
+  bottom: 18px;
   color: var(--primaryColor);
   border-bottom: 1px solid var(--primaryColor);
 }
@@ -272,6 +273,7 @@ section#feature2 {
 
 section#contact {
   background-color: #1d1d1f;
+  text-align: center;
 }
 
 /* Media Query: Large Smartphone (Vertical) */
